@@ -82,10 +82,14 @@ output is in topips.txt file
 ~~~
 
 -  Top 3 IP addresses by amount of POST requests.
-
+~~~console
+There is no ips with POST requests
+~~~
 
 -  Which IP addresses received 403 error ? 
-
+~~~console
+searching with grep '403'/'forbidden'/'error' test.txt did not give any results
+~~~
 
 - Task with * . Write script to show which pages Google checked from the website 
 
