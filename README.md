@@ -76,7 +76,10 @@ output is in file ips.txt file
 
 
 -  IP address with most requests.
-
+~~~console
+cat test.txt | awk '{print $1}' | sort -n | uniq -c | sort -rn >topips.txt
+output is in topips.txt file
+~~~
 
 -  Top 3 IP addresses by amount of POST requests.
 

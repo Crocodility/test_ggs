@@ -1,2 +1,2 @@
 #!bin/bash
-date +%D
+date +%Y
