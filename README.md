@@ -3,7 +3,9 @@
 - Create directory test1  
 mkdir test1
 - Create file test1.txt inside the test1 directory.
+'''console
 touch test1.txt
+'''
 -   Create copy of folder test1 with name test2.  
 cp -r  /home/vladstr/Desktop/test1 /home/vladstr/Desktop/test2
 -    Delete file test1.txt inside test2 directory.
