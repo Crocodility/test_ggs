@@ -92,10 +92,13 @@ searching with grep '403'/'forbidden'/'error' test.txt did not give any results
 ~~~
 
 - Task with * . Write script to show which pages Google checked from the website 
+~~~console
 cat test.txt | grep 'Google' | awk '{print $7}'
-
+~~~
 
 ## Replace
 
 Replace IP address with most requests on 127.0.0.1 in test.txt file 
+~~~console
 vladstr@shared-MS-7B33:~/Desktop/test_ggs$ sed 's/114.119.140.234/127.0.0.1/' test.txt
+~~~
